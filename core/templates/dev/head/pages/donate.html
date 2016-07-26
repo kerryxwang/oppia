@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
-{% block subtitle %}
-  Contact
-{% endblock subtitle %}
+{% block maintitle %}
+  Donate - Oppia
+{% endblock maintitle %}
 
 {% block header_js %}
   {{ super() }}
@@ -78,7 +78,7 @@
   </div>
 {% endblock %}
 
-{% block footer_js %} 
+{% block footer_js %}
   {{ super() }}
   <script>
     {{ include_js_file('pages/Donate.js') }}
